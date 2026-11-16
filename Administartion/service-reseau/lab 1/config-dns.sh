@@ -1,9 +1,9 @@
 #!/bin/bash
 # =====================================================================
-#  config-dns-prof.sh : serveur DNS BIND9 (zone directe + zone inverse)
+#  config-dns.sh : serveur DNS BIND9 (zone directe + zone inverse)
 #  Domaine du labo : ingSALI-infra.lan (modifiable a la premiere question)
 #
-#  CE QUE FAIT LE SCRIPT (a expliquer au prof) :
+#  CE QUE FAIT LE SCRIPT :
 #    1. pose des questions (domaine, IP du serveur, noms...) avec des valeurs par defaut
 #    2. installe BIND9 (le logiciel serveur DNS)
 #    3. declare 2 zones : directe (nom -> IP) et inverse (IP -> nom)
